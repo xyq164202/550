@@ -1,2 +1,0 @@
-# 550
-My design is a distributed hash table system. It has no central server, each peer is both a server and a client. As a client, it provides interfaces through which users can issue queries and view search results. As a server, it accepts queries from other peers, checks for matches against its local hash table, and responds with corresponding results. In addition, since there’s no central indexing server, search is done through consistent hashing. In this evaluation, it tells it works not bad on cloud environment from latency and throughput.
